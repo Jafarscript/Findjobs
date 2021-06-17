@@ -1,0 +1,128 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.classic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f5fcfb;
+    display: flex;
+}
+.right{
+    background: #0F4A7B;
+    padding: 20px 30px 100px 50px;
+    width: 300px;
+    position: relative;
+    z-index: 100;
+}
+.right .find{
+    height: 40px;
+    width: 100px;
+}
+.right::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 11%;
+    background: #F57D7D;
+    top: 0;
+    left: 99%;
+    transform: skewX(-8deg);
+    transform-origin: right;
+}
+.right::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 10%;
+    background: #0F4A7B;
+    top: 0;
+    left: 93%;
+    transform: skewX(-5deg);
+    transform-origin: right;
+}
+.inside{
+    margin-top: 50px;
+}
+.inside h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: white;
+    line-height: 35px;
+    font-size: 30px;
+}
+.inside img{
+    width: 300px;
+    height: 200px;
+}
+.left{
+    padding: 150px 50px 20px 100px;
+    position: relative;
+    overflow: hidden;
+}
+.left h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0F4A7B;
+}
+
+.left label h5{
+    margin-bottom: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0F4A7B;
+    font-weight: 100;
+}
+.left label input{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #0F4A7B;
+    transition: 0.1s ease-in;
+}
+
+/* .left label input:hover{
+    border: 3px solid #0F4A7B;
+} */
+
+.circle1{
+    border: 3px solid #62BECB;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 88%;
+}
+
+.circle2{
+    border: 2px solid #DD4033;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 85%;
+}
+.circle3{
+    border: 2px solid #62BECB;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 80%;
+}
+
+.btn{
+    padding: 12px 35px;
+    margin-top: 20px;
+    background: #0F4A7B;
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
