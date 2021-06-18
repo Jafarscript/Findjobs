@@ -1,6 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 header{
     padding: 20px 100px;
     background: #0F4A7B;
+    position: relative;
+    overflow: hidden;
+}
+.circle1{
+    border: 3px solid #62BECB;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 97%;
+}
+
+.circle2{
+    border: 2px solid #DD4033;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 95%;
+}
+.circle3{
+    border: 2px solid #62BECB;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 93%;
 }
 
 .find{
