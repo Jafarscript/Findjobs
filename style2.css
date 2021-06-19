@@ -5,6 +5,8 @@
     transform: translate(-50%, -50%);
     padding: 20px;
     width: 400px;
+    background: #F9FBFD;
+    margin-top: 30px;
 }
 .center h5{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -18,7 +20,7 @@
 .center h6 i{
     margin-right: 3px;
 }
-.head span{
+.head a{
     float: right;
     color: black;
 }
