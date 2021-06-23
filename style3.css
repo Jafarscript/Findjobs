@@ -72,3 +72,22 @@
     outline: none;
     /* border-radius: 4px; */
 }
+
+@media (max-width: 900px) {
+    .center {
+      width: 300px;
+      position: relative;
+      display: grid;
+      place-items: center center;
+      top: 0;
+      left: 0;
+      transform: translate(1%, 2%);
+    }
+    .center label select{
+        width: 100%;
+    }
+    .send {
+      width: 100%;
+    }
+  }
+  

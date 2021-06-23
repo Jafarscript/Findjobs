@@ -1,14 +1,16 @@
 body{
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
+}
+main{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
     background: #f5fcfb;
+    flex-wrap: wrap;
 }
 .right{
     background: #0F4A7B;
-    padding: 20px 30px 100px 50px;
+    padding: 20px 30px 20px 50px;
     position: relative;
     z-index: 100;
     height: 100%;
@@ -137,4 +139,53 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     display: block;
+}
+
+@media(max-width: 900px){
+    main{
+        grid-template-columns: 1fr;
+    }
+    .right::after,.right::before{
+        display: none;
+    }
+    .right{
+        padding: 10px;
+    }
+    .inside{
+        align-self: center;
+        margin-right: 0px;
+    }
+    .inside img{
+        width: 320px;
+        text-align: center;
+    }
+    .left{
+        padding: 150px 20px;
+        overflow: hidden;
+        background: #dbfbff;
+    }
+    .left h3{
+        align-self: center;
+    }
+    .left label input{
+        width: 300px;
+    }
+}
+
+@media(max-width: 1024px){
+    main{
+        grid-template-columns: 1fr;
+    }
+    .right::after,.right::before{
+        display: none;
+    }
+    .right{
+        padding: 20px;
+    }
+    .inside{
+        align-self: center;
+    }
+    .left h3{
+        align-self: center;
+    }
 }
