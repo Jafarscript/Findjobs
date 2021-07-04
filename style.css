@@ -9,6 +9,7 @@ main{
     background: #f5fcfb;
     flex-wrap: wrap;
     min-height: 100vh;
+    justify-content: space-between;
 }
 .right{
     background: #0F4A7B;
