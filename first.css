@@ -64,7 +64,7 @@ header{
 header h1{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    word-spacing: 10px;
+    /* word-spacing: 0px; */
     font-weight: 500;
     margin-top: 50px;
 }
@@ -90,6 +90,7 @@ main{
     border: none;
     background: none;
     outline: none;
+    font-size: 15px;
 }
 .boxes{
     margin-top: 20px;
@@ -228,7 +229,18 @@ footer{
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.link div{
+    display: flex;
+    flex-direction: column;
+}
+.link div a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.link h5{
+    margin-bottom: 8px;
+}
 footer .logo{
     align-self: center;
 }

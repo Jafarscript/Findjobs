@@ -1,22 +1,24 @@
 body{
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
 }
 main{
     display: grid;
     grid-template-columns: 6fr 6fr;
     background: #f5fcfb;
     flex-wrap: wrap;
+    min-height: 100vh;
 }
 .right{
     background: #0F4A7B;
-    padding: 20px 30px 20px 50px;
+    padding: 20px 0px 20px 50px;
     position: relative;
     z-index: 100;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .right .find{
     height: 40px;
@@ -29,7 +31,7 @@ main{
     width: 11%;
     background: #F57D7D;
     top: 0;
-    left: 99%;
+    left: 97%;
     transform: skewX(-8deg);
     transform-origin: right;
 }
@@ -77,6 +79,7 @@ main{
 }
 .left div{
     margin-top: 0px;
+    align-self: flex-start;
 }
 .left label h5{
     margin-bottom: 3px;
