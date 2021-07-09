@@ -83,24 +83,24 @@ a {
   text-decoration: none;
 }
 main {
-  background: #f5faf9;
+  background: #d9f3ee;
   display: grid;
   grid-template-columns: 1fr;
   padding: 100px 100px;
 }
-.head {
-  padding: 1px 20px;
+/* .head {
+  padding: 10px 20px;
   background: #0f4a7b;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10px;
-}
-section .head ul {
+} */
+/* .head{
   display: flex;
   justify-content: space-between;
   list-style: none;
   align-items: center;
-}
+} */
 .foam {
   display: flex;
   justify-content: space-between;
@@ -153,8 +153,55 @@ section .head ul {
   top: 15px;
   color: #62becb;
 }
-.head ul li span {
-  margin-left: 5px;
+.table-res{
+  margin-bottom: 30px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: #0f4a7b;
+ }
+.tbl-content{
+  /* height:300px; */
+  overflow-x:auto;
+  margin-top: 0px;
+  /* border: 1px solid rgba(8, 8, 8, 0.781); */
+}
+.set span{
+  padding: 5px 30px;
+  background: #ea5566;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+.del span{
+  padding: 5px 40px;
+  border: solid 1px #62becb;
+  cursor: pointer;
+}
+th{
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+td{
+  padding: 20px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(27, 26, 26);
+  margin-bottom: 10px;
+  background: #fff;
+  font-weight: 400;
+  border-top: solid 5px rgba(17, 17, 17, 0.1);
 }
 .box {
   margin-top: 8px;
