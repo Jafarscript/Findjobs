@@ -19,6 +19,7 @@ main{
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     /* justify-content: space-between; */
 }
 .right .find{
@@ -146,6 +147,9 @@ main{
 }
 
 @media(max-width: 900px){
+    body{
+        overflow: scroll;
+    }
     main{
         grid-template-columns: 1fr;
     }
@@ -177,6 +181,9 @@ main{
 }
 
 @media(max-width: 1024px){
+    body{
+        overflow: scroll;
+    }
     main{
         grid-template-columns: 1fr;
     }
