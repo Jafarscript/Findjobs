@@ -183,6 +183,7 @@ main{
 @media(max-width: 1024px){
     body{
         overflow: scroll;
+        overflow-x: scroll;
     }
     main{
         grid-template-columns: 1fr;
