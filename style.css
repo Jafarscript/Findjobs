@@ -101,6 +101,10 @@ main{
     border: 1px solid #0F4A7B;
     transition: 0.1s ease-in;
 }
+.left button a{
+    text-decoration: none;
+    color: white;
+}
 
 /* .left label input:hover{
     border: 3px solid #0F4A7B;
