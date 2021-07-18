@@ -25,6 +25,8 @@ main{
 .right .find{
     height: 40px;
     width: 100px;
+    position: absolute;
+    top: 20px;
 }
 .right::before{
     position: absolute;
