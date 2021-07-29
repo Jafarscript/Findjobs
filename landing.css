@@ -271,6 +271,7 @@ main{
     outline: none;
     border: 0.02px solid #0F4A7B;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .buttons .fit{
@@ -455,6 +456,9 @@ nav #check {
         display: grid;
         grid-template-columns: 1fr;
         place-items: center center;
+    }
+    footer div h4{
+        text-align: left;
     }
     .let{
         padding: 10px;

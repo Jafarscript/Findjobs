@@ -165,7 +165,7 @@ table{
  }
 .tbl-content{
   /* height:300px; */
-  overflow-x:auto;
+  /* overflow-x:auto; */
   margin-top: 0px;
   /* border: 1px solid rgba(8, 8, 8, 0.781); */
 }
@@ -276,6 +276,7 @@ td{
   outline: none;
   border: 0.02px solid #0f4a7b;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .buttons .fit {
@@ -435,7 +436,7 @@ nav #check {
   }
   .foam label button {
     padding: 2px 10px;
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 5px;
   }
   .one {
@@ -517,5 +518,31 @@ nav #check {
   }
   .buttons button{
     font-size: 10px;
+  }
+  table thead{
+    display: none;
+  }
+  table, table tbody, table tr, table td{
+    display: block;
+    /* width: 100%; */
+  }
+  table tr{
+    margin-bottom: 15px;
+  }
+  table tbody tr td, table tbody tr .date{
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    margin-bottom: 0px;
+    font-size: 13px;
+    border: solid 1px rgba(17, 17, 17, 0.6);
+  }
+  .date::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    left: 0;
+    background-color: #f76d35;
+    z-index: 70;
   }
 }
