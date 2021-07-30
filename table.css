@@ -73,11 +73,11 @@ header {
 }
 header h1 {
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   word-spacing: 10px;
   font-weight: 500;
   margin-top: 50px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 a {
   text-decoration: none;
@@ -505,6 +505,9 @@ nav #check {
   .delete {
     padding: 0;
   }
+  td i{
+    display: none;
+  }
   footer {
     padding: 20px;
     display: grid;
@@ -545,4 +548,7 @@ nav #check {
     background-color: #f76d35;
     z-index: 70;
   }
+  .circle1,.circle2,.circle3{
+    display: none;
+}
 }
