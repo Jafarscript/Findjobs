@@ -378,7 +378,9 @@ nav #check {
         text-align: center;
     }
     .one div i{
-        top: 5px;
+        top: 6px;
+        left: 10px;
+        cursor: pointer;
     }
     .one input{
         padding: 5px;

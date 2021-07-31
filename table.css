@@ -464,7 +464,7 @@ nav #check {
   }
   .one i {
     left: 15px;
-    top: 10px;
+    top: 16px;
   }
   .head {
     padding: 1px 10px;
@@ -505,7 +505,7 @@ nav #check {
   .delete {
     padding: 0;
   }
-  td i{
+  .date i{
     display: none;
   }
   footer {
