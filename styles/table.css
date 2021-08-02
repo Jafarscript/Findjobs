@@ -1,6 +1,8 @@
 body {
   padding: 0;
   margin: 0;
+  /* overflow: hidden; */
+  overflow-x: scroll;
 }
 header {
   padding: 20px 100px;
@@ -84,9 +86,10 @@ a {
 }
 main {
   background: #d9f3ee;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   padding: 100px 100px;
+  overflow: hidden;
 }
 /* .head {
   padding: 10px 20px;
@@ -159,16 +162,12 @@ main {
 table{
   width:100%;
   table-layout: fixed;
+  border-collapse: collapse;
 }
-.tbl-header{
+table thead{
   background-color: #0f4a7b;
  }
-.tbl-content{
-  /* height:300px; */
-  /* overflow-x:auto; */
-  margin-top: 0px;
-  /* border: 1px solid rgba(8, 8, 8, 0.781); */
-}
+
 .set span{
   padding: 5px 30px;
   background: #ea5566;
@@ -330,7 +329,10 @@ nav #check {
   header {
     padding: 20px;
   }
-
+  .fontawe a{
+    border-radius: 10px;
+    font-size: 13px;
+  }
   .let {
     padding: 10px;
   }
@@ -428,6 +430,10 @@ nav #check {
   }
   main {
     padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* overflow: hidden; */
   }
   .foam {
     flex-direction: column;
@@ -522,8 +528,11 @@ nav #check {
   .buttons button{
     font-size: 10px;
   }
-  table thead tr{
-    overflow-x: scroll;
+  .table-res{
+    overflow: auto;
+  }
+  table{
+    width: 950px;
   }
   .circle1,.circle2,.circle3{
     display: none;
